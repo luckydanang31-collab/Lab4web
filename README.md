@@ -1,3 +1,6 @@
+![Deskripsi Foto](./assets/pp1.png)
+![Deskripsi Foto](./assets/pp2.png)
+
 # Laporan Praktikum Pemrograman Web
 **Praktikum 4: CSS Layout & Semantics Element**
 
