@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS Tambahan khusus Form Kontak agar rapi */
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .form-group textarea {
+            height: 120px;
+        }
+        .btn-submit {
+            background-color: #428bca;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-submit:hover {
+            background-color: #3071a9;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+        
+        <section id="hero">
+            <h1>Hubungi Kami</h1>
+            <p>Silakan isi formulir di bawah ini jika ada pertanyaan, saran, atau pesan yang ingin disampaikan kepada kami.</p>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Formulir Kontak</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan / Message</label>
+                            <textarea id="pesan" name="pesan" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Kirim Pesan</button>
+                    </form>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Info Kontak</h3>
+                    <ul>
+                        <li><a href="#">Email: info@kampus.ac.id</a></li>
+                        <li><a href="#">Telepon: (021) 555-8899</a></li>
+                        <li><a href="#">Alamat: Bekasi, Jawa Barat</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>C
+        
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        
+        <section id="hero">
+            <h1>Tentang git push Saya</h1>
+            <p>Halaman ini berisi informasi profil singkat, latar belakang, serta portofolio dari pembuat website ini.</p>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Profil Singkat</h2>
+                    <img src="assets/pp.jpeg" alt="Profile" width="150">
+                    <p>Halo! Saya adalah seorang mahasiswa yang sedang mempelajari Pemrograman Web. Website ini dibuat sebagai bagian dari modul praktikum CSS Layout untuk memahami struktur dasar, penggunaan Box Element, CSS Floating, serta HTML5 Semantics Element.</p>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Portofolio & Keahlian</h2>
+                    <p>Berikut adalah beberapa teknologi dan keahlian yang sedang saya pelajari:</p>
+                    <ul style="line-height: 30px; margin-left: 20px;">
+                        <li>HTML5 & Semantic Elements</li>
+                        <li>CSS3 (Flexbox, Grid, Floating, & Box Model)</li>
+                        <li>JavaScript Dasar</li>
+                        <li>Git & GitHub Version Control</li>
+                    </ul>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Informasi tambahan atau biografi singkat dapat diletakkan pada bagian sidebar ini.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
