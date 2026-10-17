@@ -4,9 +4,9 @@
 # Laporan Praktikum Pemrograman Web
 **Praktikum 4: CSS Layout & Semantics Element**
 
-* **Nama:** [Nama Anda]
-* **NIM:** [NIM Anda]
-* **Kelas:** [Kelas Anda]
+* **Nama:** Lucky Danang Aryeswara
+* **NIM:** 312510482
+* **Kelas:** I253A
 * **Dosen Pengampu:** Agung Nugroho
 * **Instansi:** Universitas Pelita Bangsa
 
